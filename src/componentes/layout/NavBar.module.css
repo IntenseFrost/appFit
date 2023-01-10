@@ -1,0 +1,36 @@
+.navega{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.lista{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+   
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4em;
+}
+
+.itemLista{
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.itemLista:hover{
+    color: aqua;
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+
+.logoPb{
+    width:5em;
+    
+}
